@@ -10,16 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Play"
-            android:label="Play"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="umn.ac.utsmobile00000018326.MainActivity" />
-        </activity>
-        <activity
             android:name=".ProfileActivity"
-            android:label="Coder's Profile"
+            android:label="Creator's Profile"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
