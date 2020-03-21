@@ -1,9 +1,7 @@
 package umn.ac.utsmobile00000018326;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.widget.ImageView;
 
 public class ProfileActivity extends AppCompatActivity {
 

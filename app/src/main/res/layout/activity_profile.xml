@@ -1,51 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#F7DCC8"
     tools:context=".ProfileActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="40dp"
 
-        android:textAlignment="center"
-        android:text="Creator's Profile"
-        />
 
     <ImageView
         android:src="@drawable/profilepic"
-        android:paddingTop="40dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:id="@+id/profilepic"
-
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:text="Lady Theresa Tandiono"
-        android:textAlignment="center"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:text="00000018326"
+        android:textColor="#000000"
         android:textAlignment="center"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
+        android:textSize="25sp"
+        android:text="00000018326"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
         android:text="Class - CL"
+        android:textColor="#000000"
         android:textAlignment="center"
         />
 
