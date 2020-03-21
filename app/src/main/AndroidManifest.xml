@@ -12,6 +12,7 @@
         <activity
             android:name=".ProfileActivity"
             android:label="Creator's Profile"
+            android:exported="true"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

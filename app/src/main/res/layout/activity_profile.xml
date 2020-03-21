@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ProfileActivity">
 
     <TextView
@@ -14,6 +15,38 @@
 
         android:textAlignment="center"
         android:text="Creator's Profile"
+        />
+
+    <ImageView
+        android:src="@drawable/profilepic"
+        android:paddingTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/profilepic"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Lady Theresa Tandiono"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="00000018326"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Class - CL"
+        android:textAlignment="center"
         />
 
 </LinearLayout>
