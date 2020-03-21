@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     ObjectAnimator animationY;
 
     private ConstraintLayout mMainLayout;
-    private int maxTranslationX, maxTranslationY, translationX, translationY, defX, defY;
+    private int maxTranslationX, maxTranslationY, translationX, translationY;
     private boolean clear = false;
 
     @Override
