@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
         TombolStart.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                TombolStart.setVisibility(View.INVISIBLE);
-                TombolProfile.setVisibility(View.INVISIBLE);
+                TombolStart.setVisibility(View.GONE);
+                TombolProfile.setVisibility(View.GONE);
                 judul.setVisibility(View.INVISIBLE);
                 startAnimation();
                 MP_START.start();

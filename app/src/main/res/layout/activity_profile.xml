@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#F7DCC8"
+    android:background="#f1d9b7"
     tools:context=".ProfileActivity">
-
 
 
     <ImageView
