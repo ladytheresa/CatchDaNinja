@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 public class ProfileActivity extends AppCompatActivity {
-    ImageView pic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

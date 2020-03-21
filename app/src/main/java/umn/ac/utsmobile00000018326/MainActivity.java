@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
     TextView judul;
     Button TombolStart, TombolProfile, TombolQuit, Miss;
 
-
-
     private ConstraintLayout mMainLayout;
     private int maxTranslationX;
     private int maxTranslationY;
@@ -60,19 +58,19 @@ public class MainActivity extends AppCompatActivity {
                 startAnimation();
                 MP_START.start();
 
-
-
                 ninja.setOnClickListener(new View.OnClickListener(){
                     @Override
                     public void onClick(View v){
                         TombolQuit.setVisibility(View.VISIBLE);
                         clear = true;
                         MP_HIT.start();
+
                         MP_HIT.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                             public void onCompletion(MediaPlayer MP_HIT) {
                                 MP_HIT.release();
                             }
                         });
+
                         MP_START.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                             public void onCompletion(MediaPlayer MP_START) {
                                 MP_START.release();
@@ -83,8 +81,10 @@ public class MainActivity extends AppCompatActivity {
                 mMainLayout.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
                         if(!clear){MP_MISS.start();}
+
                     }
                 });
+
 
             }
         });
@@ -136,12 +136,9 @@ public class MainActivity extends AppCompatActivity {
         animationY.start();
 
 
-
-
         animationX.addListener(new AnimatorListenerAdapter() {
             public void onAnimationEnd(Animator animation) {
                 if(!clear) {startAnimation();}
-
             }
         });
 
